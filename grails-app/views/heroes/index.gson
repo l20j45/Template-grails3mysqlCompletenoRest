@@ -1,0 +1,8 @@
+import grails3mysql.Heroes
+
+model {
+	Iterable<Heroes> heroesList
+}
+
+json tmpl.Heroes(heroesList ?: [])
+

@@ -1,0 +1,7 @@
+import grails3mysql.Heroes
+
+model {
+	Heroes Heroes
+}
+
+json g.render(Heroes, [resolveTemplate: false])
